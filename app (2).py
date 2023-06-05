@@ -12,7 +12,7 @@ SPOTIPY_CLIENT_SECRET='739bbbed49864382a64a64ccd64ecdcc'
 
 auth_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
 sp = spotipy.Spotify(auth_manager=auth_manager)
-st.set_page_config(page_title='Abilaash')
+st.set_page_config(page_title='Mohanram')
 st.header('_Music Recommendation_')
 search_choices = ['Song/Track', 'Artist', 'Album']
 search_selected = st.sidebar.selectbox("Select your choice : ", search_choices)
