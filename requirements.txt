@@ -2,6 +2,5 @@ streamlit
 pandas
 numpy
 spotipy
-spotipy 
 moviepy
 polarplot
